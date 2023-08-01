@@ -85,6 +85,14 @@ body {
     text-align: center;
     padding: 10px;
     margin-left: 12.25%;
+    margin-bottom: 15px;
+}
+
+.result {
+    color: #352839;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    font-size: 28px;
+    margin-left: 32.5%;
     margin-bottom: 50px;
 }
 
