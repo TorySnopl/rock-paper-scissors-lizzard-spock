@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rock Paper Scissors Lizzard Spock</title>
 </head>
-<body>
-    <header>
-        <h1 class="gname"> ROCK PAPER SCISSORS LIZARD SPOCK</h1>
-    </header>
 
+<header>
+    <h1 class="gname"> ROCK PAPER SCISSORS LIZARD SPOCK</h1>
+</header>
+
+<body>
+   
     <section class="directions">
-        <h3>DIRECTIONS</h3>
+        <h2>DIRECTIONS:</h2>
         <p> Welcome to Rock / Paper / Lizard / Spock! Here are the directions.</p>
             <ul>
                 <li>Scissors cuts paper</li>
@@ -30,32 +33,33 @@
     </section>
 
     <section class="score">
-        <h3>SCORE</h3>
+        <h3 class="main-score">YOU VS. THE MACHINE</h3>
+        <h3 class="score-players">SCORE</h3>
+        <h3 class="score-you">0</h3>
+        <h3 class="score-comp">0</h3>
     </section>
 
-    <section>
-        <button class="rock"><img src="assets/images/rock.png" alt="hand making rock gesture"></button>
+    <section class="buttons">
+        <button class="rock"><img src="assets/images/rock-hand.png" alt="hand making rock gesture"> ROCK </button>
+   
+        <button class="paper"><img src="assets/images/paper-hand.png" alt="hand making paper gesture"> PAPER </button>
+    
+        <button class="scissors"><img src="assets/images/scissors-hand.png" alt="hand making scissor gesture"> SCISSOR </button>
+    
+        <button class="lizard"><img src="assets/images/lizard-hand.png" alt="hand imitating shape of lizard head"> LIZARD </button>
+   
+        <button class="spock"><img src="assets/images/spock-hand.png" alt="live long and prosper gesture"> SPOCK </button>
     </section>
 
-    <section>
-        <button class="paper"><img src="assets/images/paper.png" alt="hand making paper gesture"></button>
-    </section>
-
-    <section>
-        <button class="scissors"><img src="assets/images/scissor.png" alt="hand making scissor gesture"></button>
-    </section>
-
-    <section>
-        <button class="lizard"><img src="assets/images/lizzard.png" alt="hand imitating shape of lizard head"></button>
-    </section>
-
-    <section>
-        <button class="spock"><img src="assets/images/spock.png" alt="live long and prosper gesture"></button>
-    </section>
+   
 
     <script src="assets/js/script.js"></script>
 </body>
+
+
 <footer>
     <h3>THANK YOU FOR PLAYING!</h3>
 </footer>
+
+
 </html>
