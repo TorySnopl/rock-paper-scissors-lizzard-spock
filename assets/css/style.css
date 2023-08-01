@@ -128,4 +128,5 @@ footer {
     background-color: #352839;
     color: #ECCF71;
     border: 3px dashed #F20800;
+    cursor: pointer;
 }
