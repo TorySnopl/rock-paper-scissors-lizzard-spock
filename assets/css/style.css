@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0px;
+    border: 0;
+}
+
+header {
+    background-color: #F20800;
+    color: #ECCF71;
+    font-family: "Bazinga",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    width: 100%;
+    padding: 40px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+body {
+    background-image: url("../images/bolt.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+    
+}
+
+.directions {
+    text-align: center;
+    border: 2px solid #F20800;
+    background-color: #352839;
+    color: #ECCF71;
+    font-family: "Bazinga",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+
+
+.directions p {
+    font-family: "Bazinga",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;;
+    color: #ECCF71;
+    font-size: medium;
+    margin: 10px;
+    
+}
+
+.directions li {
+    background-color: #352839;
+    color: #ECCF71;
+    list-style-type: none;
+    border: 1px solid #F20800;
+    width: 25%;
+    margin-left: 37%;
+}
+
+
+
+.main-score {
+    background-color: #F20800;
+    color: #ECCF71;
+    font-family: "Bazinga",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 75.25%;
+    margin: 0 auto;
+    
+}
+
+.score-players {
+    color: #352839;
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    margin-left: 12.25%;
+}
+
+.score-you, .score-comp {
+    display: inline-block;
+    width: 25vw;
+    background-color: #352839;
+    color: #ECCF71;
+    border: 1px solid #F20800;
+    text-align: center;
+    padding: 10px;
+    margin-left: 12.25%;
+    margin-bottom: 50px;
+}
+
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #352839;
+    font-weight: bold;
+}
+
+.buttons img {
+    height: 100%;
+    float: left;
+}
+
+footer {
+    background-color: #F20800;
+    color: #ECCF71;
+    font-family: "Bazinga",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+
+}
+
+.buttons button:hover {
+    background-color: #352839;
+    color: #ECCF71;
+    border: 3px dashed #F20800;
+}
