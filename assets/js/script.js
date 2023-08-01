@@ -9,12 +9,13 @@ let compScore = 0;
 
 function compPlay() {
     const weaponIndex = Math.floor(Math.random() * weapons.length);
-    return weapons(weaponIndex);
+    return weapons [weaponIndex];
 }
 
 function updateScore(playerWeapon, computerWeapon) {
     if (playerWeapon === computerWeapon) {
-        resultElem.innerHTML = "IT'S A TIE!"
+        resultElem.innerHTML = "IT'S A TIE!";
+        
     } else if (
         (playerWeapon === 'scissors' && computerWeapon === 'paper') ||
         (playerWeapon === 'scissors' && computerWeapon === 'lizard') ||
@@ -27,11 +28,13 @@ function updateScore(playerWeapon, computerWeapon) {
         (playerWeapon === 'spock' && computerWeapon === 'scissors') ||
         (playerWeapon === 'spock' && computerWeapon === 'rock')
     ){
-        resultElem.innerHTML = "YOU WIN";
+        resultElem.innerHTML = " RESULT: YOU WIN";
+        resultElem.style.color = 'green';
         playerScore++;
         playerScoreElem.innerHTML = `${playerScore}`;
     } else {
-        resultElem.innerHTML = "THE MACHINE WINS"
+        resultElem.innerHTML = "RESULT: THE MACHINE WINS"
+        resultElem.style.color = 'red';
         compScore++;
         compScoreElem.innerHTML = `${compScore}`;
     }
