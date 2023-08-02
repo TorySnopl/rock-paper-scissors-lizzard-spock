@@ -89,11 +89,14 @@ body {
 }
 
 .result {
-    color: #352839;
+    color: #ECCF71;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans', sans-serif;
     font-size: 28px;
     margin-left: 32.5%;
+    margin-right: 40%;
     margin-bottom: 50px;
+    background-color: #352839;
+    
 }
 
 .compchoice {
@@ -114,6 +117,11 @@ body {
     color: #352839;
     font-weight: bold;
     margin-bottom: 50px;
+    
+}
+
+.weapon {
+    border: 2px solid #F20800;
 }
 
 .buttons img {
@@ -138,4 +146,44 @@ footer {
     color: #ECCF71;
     border: 3px dashed #F20800;
     cursor: pointer;
+}
+
+@media screen and (max-width: 988px ) {
+    .directions li {
+        width: 50%;
+        margin-left: 24%;
+    }
+    .weapon {
+        margin: 10px 5px 50px 5px;
+        
+    }
+    .compchoice {
+        margin-left: 6.25%;
+    }
+    .result {
+        margin-left: 6.75%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-repeat: repeat;
+        background-size: auto;
+    }
+
+    .directions {
+        margin-left: 16%;
+    }
+
+    .main-score {
+        margin-left: 16%;
+        width: 76%;
+    }
+    
+    .directions li {
+        width: 80%;
+        margin-left: 9.50%;
+    }
+  
 }
