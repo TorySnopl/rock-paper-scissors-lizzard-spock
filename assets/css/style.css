@@ -96,6 +96,14 @@ body {
     margin-bottom: 50px;
 }
 
+.compchoice {
+    color: #352839;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    font-size: 28px;
+    margin-left: 17.55%;
+    margin-bottom: 10px;
+}
+
 
 
 .buttons {
@@ -105,6 +113,7 @@ body {
     justify-content: space-evenly;
     color: #352839;
     font-weight: bold;
+    margin-bottom: 50px;
 }
 
 .buttons img {
@@ -119,7 +128,7 @@ footer {
     width: 100%;
     padding: 20px;
     text-align: center;
-    position: fixed;
+    position: relative;
     bottom: 0%;
 
 }
