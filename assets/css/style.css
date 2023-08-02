@@ -124,10 +124,7 @@ body {
     border: 2px solid #F20800;
 }
 
-.buttons img {
-    height: 100%;
-    float: left;
-}
+
 
 footer {
     background-color: #F20800;
@@ -142,8 +139,7 @@ footer {
 }
 
 .buttons button:hover {
-    background-color: #352839;
-    color: #ECCF71;
+   
     border: 3px dashed #F20800;
     cursor: pointer;
 }
