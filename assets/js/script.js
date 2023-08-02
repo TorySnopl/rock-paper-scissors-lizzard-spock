@@ -18,7 +18,7 @@ function updateScore(playerWeapon, computerWeapon) {
         compChoiceElem.innerHTML = `THE MACHINE THROWS: ${computerWeapon}`;
     }
     if (playerWeapon === computerWeapon) {
-        resultElem.innerHTML = "IT'S A TIE!";
+        resultElem.innerHTML = "RESULT: IT'S A TIE!";
         
     } else if (
         (playerWeapon === 'scissors' && computerWeapon === 'paper') ||
