@@ -2,6 +2,7 @@ const choices = document.querySelectorAll('.weapon');
 const playerScoreElem = document.querySelector('.score-you');
 const compScoreElem = document.querySelector('.score-comp');
 const resultElem = document.querySelector('.result-is');
+const compChoiceElem = document.querySelector('.compchoice');
 
 const weapons = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
 let playerScore = 0;
@@ -13,6 +14,9 @@ function compPlay() {
 }
 
 function updateScore(playerWeapon, computerWeapon) {
+    if (playerWeapon) {
+        compChoiceElem.innerHTML = `THE MACHINE THROWS: ${computerWeapon}`;
+    }
     if (playerWeapon === computerWeapon) {
         resultElem.innerHTML = "IT'S A TIE!";
         
